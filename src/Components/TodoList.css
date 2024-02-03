@@ -1,0 +1,71 @@
+.to-do-list{
+    border-radius: 5px ;
+    background:rgb(140, 220, 231);
+    margin: 40px 50px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 3px rgb(87, 86, 86);
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.input-sec, .del {
+    flex-wrap: wrap;
+    /* border: 2px solid green; */
+    /* margin: 10px auto; */
+}
+.input-sec button{
+    background: rgb(110, 202, 110);
+    border-radius: 5px 5px;
+    box-shadow: 2px 2px 3px black;
+    font-weight: bold;
+}
+
+.del{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.del li button{
+   margin-left:40px;
+   flex-wrap: wrap;
+   background: rgb(220, 85, 85);
+   box-shadow: 2px 2px 3px black;
+}
+
+.to-do-list .input-sec input{
+    border: none;
+    background: pink;
+    outline: none;
+    width: 85%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 5px;
+   font-size: 100%;
+   font-family: 'Times New Roman', Times, serif;
+}
+.to-do-list .input-sec button{
+    height: 56px;
+    width: 8.9%;
+    margin-left: 15px;
+}
+
+.del li{
+   color: black;
+   font-weight: bold;
+}
+
+.input-sec label{
+    padding: auto;
+    margin-top:10px ;
+    margin-left: 45%;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:hotpink;
+    text-shadow: -2px 2px 2px rgb(36, 5, 23);
+}
